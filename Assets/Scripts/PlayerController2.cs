@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController2 : MonoBehaviour
 {
     private bool pressed;
     private float speed = 15.0f;
@@ -18,8 +18,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal1");
-        verticalInput = Input.GetAxis("Vertical1");
+        horizontalInput = Input.GetAxis("Horizontal2");
+        verticalInput = Input.GetAxis("Vertical2");
         //Move the vehicle forward
         //removed because of usage, but is similar: transform.Translate(0, 0, 1);
 
